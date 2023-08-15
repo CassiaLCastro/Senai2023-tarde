@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+    </head>
+    <style>
+        #div1 {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            background-color: whitesmoke;           
+            margin: auto;
+            margin-top: 250px;           
+            padding: 10px;
+            border: 5px solid black;
+            border-radius: 5%;
+        }
+        #botao {
+            background-color: black; 
+            color: #fff;
+            font-size: 15px;
+            font-family: montserrat, sans-serif;
+            border-radius: 5%;
+                }
+    </style>
+    <body>
+        <div id="div1">
+            <h1>Conecte-se</h1>
+            <label><strong>Nome:</strong></label>
+            <input type="text" placeholder="Digite seu nome"><p></p>
+            <label><strong>Senha:</strong></label>
+            <input type="password" placeholder="Digite sua senha"><p></p>
+            <input type="submit" value="Entrar" id="botao">
+            <a href="cadastro.html">Cadastre-se</a>
+        </div>
+
+    </body>
+</html>
 
